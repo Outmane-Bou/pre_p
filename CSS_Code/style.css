@@ -3,9 +3,92 @@ body {
   color: lightblue;
 }
 
-.pa {
+body .frm {
+  background-color: rgba(4, 34, 133, 0.76);
+  padding: 10px;
+  width: 260px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px 5px 5px rgba(146, 153, 248, 0.815);
+          box-shadow: -5px 5px 5px rgba(146, 153, 248, 0.815);
+}
+
+body .frm label {
+  font-size: 20px;
+  text-shadow: -3px 3px 3px black;
+  color: #7979fa;
+}
+
+body .frm .w1, body .frm .w2 {
+  width: 220px;
+  height: 30px;
+  margin: 0 auto;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px 5px 5px black;
+          box-shadow: -5px 5px 5px black;
+  font-size: 20px;
+  padding-left: 10px;
+  background: #5858fd;
+  color: #030347;
+}
+
+body .frm .btn {
   width: 100px;
   height: 30px;
-  background-color: blue;
+  border: none;
+  position: relative;
+  left: 130px;
+  -webkit-box-shadow: -5px 5px 5px black;
+          box-shadow: -5px 5px 5px black;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: #1c1cfc;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+body .frm .btn:hover {
+  background-color: #6262f3;
+}
+
+body .frm .btn:active {
+  -webkit-box-shadow: -3px 0px 5px black;
+          box-shadow: -3px 0px 5px black;
+  top: 2px;
+  background: #1c1cfc;
+}
+
+body .frm .pa {
+  width: 150px;
+  height: 30px;
+  background-color: #3939df;
+  color: #030347;
+  position: relative;
+  left: 90px;
+  top: -5px;
+  -webkit-box-shadow: -5px 5px 5px black;
+          box-shadow: -5px 5px 5px black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

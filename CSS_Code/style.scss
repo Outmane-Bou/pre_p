@@ -1,10 +1,73 @@
 body{
     background-color: black;
     color: lightblue;
+    .frm{
+        background-color: rgba(4, 34, 133, 0.76);
+        padding: 10px;
+        width: 260px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: -5px 5px 5px rgba(146, 153, 248, 0.815);
+        label{
+            font-size: 20px;
+            text-shadow: -3px 3px 3px rgb(0, 0, 0);
+            color: rgb(121, 121, 250);
+        }
+        .w1 , .w2{
+            width: 220px;
+            height: 30px;
+            margin: 0 auto;
+            outline: none;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: -5px 5px 5px rgb(0, 0, 0);
+            font-size: 20px;
+            padding-left: 10px;
+            background: rgb(88, 88, 253);
+            color: rgb(3, 3, 71);
+        }
+        .btn{
+            width: 100px;
+            height: 30px;
+            border: none;
+            position: relative;
+            left: 130px;
+            box-shadow: -5px 5px 5px rgb(0, 0, 0);
+            border-radius: 10px;
+            margin-top: 10px;
+            background: rgb(28, 28, 252);
+            outline: none;
+            cursor: pointer;
+            transition: 300ms; 
+        }
+        .btn:hover{
+            background-color: rgb(98, 98, 243);;
+        }
+        .btn:active{
+            box-shadow: -3px 0px 5px rgb(0, 0, 0);
+            top: 2px;
+            background: rgb(28, 28, 252);
+        }
+        .pa{
+            width: 150px;
+            height: 30px;
+            background-color: rgb(57, 57, 223);
+            color: rgb(3, 3, 71);
+            position: relative;
+            left: 90px;
+            top: -5px;
+            box-shadow: -5px 5px 5px rgb(0, 0, 0);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    }
+}
 
-}
-.pa{
-    width: 100px;
-    height: 30px;
-    background-color: blue;
-}
